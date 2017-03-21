@@ -1,20 +1,39 @@
 body {
 	background-color: #CCCCCC;
+	font-family: Helvetica;
+	margin: 0 auto;
 }
 
-header {
-	background-color: #FFFFFF;
-	width: 600px;
-	padding: 20px;
-	margin: auto;
-}
-
-div {
+.container {
 	background: #FFFFFF;
 	width: 600px;
 	height: auto;
-	padding: 20px;
+	padding: 0px;
 	margin: auto;
+}
+
+.navheader {
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#origin{
+	background-color: #C1E1EC;
+	padding: 20px;
+}
+
+#classwork {
+	background-color: #ADD8E6;
+	padding: 20px;
+
+}
+
+#homework {
+	background-color: #99CFE0;
+	padding: 20px;
+
 }
 
 h1 {
@@ -30,7 +49,7 @@ h2 {
 	color: black;
 	text-align: center;
 	font-family: Times;
-	font-size: 20px;
+	font-size: 25px;
 	font-style: italic;
 	margin: 0 0 0 0;
 }
@@ -39,19 +58,21 @@ h3 {
 	color: black;
 	text-align: center;
 	font-family: Times;
-	font-size: 16px;
+	font-size: 20px;
 	font-style: italics;
 }
 
 p {
 	padding: 10px 30px 10px 30px;
+	font-size: 16px;
 	text-align: justify;
-}
-
-.nav {
-	text-align: center;
 }
 
 a {
 	text-decoration: none;
+	text-align: center;
+}
+
+li {
+	list-style-type: circle;
 }
