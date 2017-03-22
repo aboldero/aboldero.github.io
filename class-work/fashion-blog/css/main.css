@@ -1,32 +1,36 @@
 body {
 	background-color: #FFFFFF;
-	font-family: "Lato";
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
 	font-weight: 300;
+	color: #444444;
 }
 
-.container {
+#container {
 	background-color: #FFFFFF;
 	width: 720px;
 	padding: 54px;
 	border-left: 6px solid #DDDDDD;
-	font-family: "Lato";
 }
 
-header {
+#header {
 	height: auto;
 }
 
-header .nav a {
+#header .nav a {
 	color: #DDDDDD;
 	font-size: 21px;
 	padding: 0 15px 2px 0;
 	font-weight: 300;
-	text-decoration: none;
-	border-bottom: solid 1px #DDDDDD;
+	border-bottom: solid 2px #EEEEEE;
 }
 
-header .nav a:hover {
+#header .nav a:hover {
 	color: #000000;
+	border-bottom: solid 2px #BBBBBB;
 }
 
 section {
@@ -49,6 +53,8 @@ article {
 
 img {
 	max-width: 100%;
+	display: block;
+	margin: 10px 0;
 }
 
 h1 {
