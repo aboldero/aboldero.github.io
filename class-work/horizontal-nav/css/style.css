@@ -2,3 +2,23 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+nav {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	color: #CCCCCC;
+	font-size: 21px;
+	display: inline-block;
+	margin: 0;
+	padding: 15px 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	background-color: #FF7401;
+}
