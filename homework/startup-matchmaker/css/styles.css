@@ -10,10 +10,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #000000;
 }
 
 header nav summary main section footer {
 	margin: 0;
+	width: 1024px;
 }
 
 
@@ -37,9 +39,9 @@ summary {
 
 main {
 	background-image: url('../img/coworking.jpg');
-	background-size: cover;
+	background-position: center center;
 	background-repeat: no-repeat;
-	overflow: auto;
+	background-size: 100%;
 	box-shadow: 0 3px 5px -5px rgba(0, 0, 0, 0.75) inset;
 }
 
@@ -106,17 +108,17 @@ footer {
 
 #content1 {
 	background-color: none;
-	padding: 25px 25px 25px 0;
+	padding: 30px 25px 30px 0;
 }
 
 #content2 {
 	background-color: none;
-	padding: 25px 25px;
+	padding: 30px 25px;
 }
 
 #content3 {
 	background-color: none;
-	padding: 25px 0 25px 25px;
+	padding: 30px 0 30px 25px;
 }
 
 /*Typography*/
@@ -201,5 +203,5 @@ p {
 
 footer p {
 	color: #FFFFFF;
-	padding: 0;
+	padding: 19px 0;
 }
