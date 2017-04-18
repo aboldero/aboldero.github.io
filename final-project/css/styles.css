@@ -2,19 +2,20 @@
 /* Structure */
 
 body {
-	text-align: center;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 header {
 	background-color: #000000;
 	margin: 0 auto;
-	padding-bottom: 30px;
+	padding: 0;
 }
 
 nav {
 	margin: 0 auto;
+	float: right;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
 	padding: 20px;
 }
 
-article {
+article, section {
 	width: 700px;
 	margin: 0 auto;
 	padding: 20px;
@@ -32,31 +33,41 @@ footer {
 	background-color: black;
 }
 
+img {
+	margin: 20px 0;
+}
+
+
+
 /* Classes and IDs */
 
 .container {
 	width: 700px;
 	height: auto;
-	margin: 15px auto;
+	margin: 0 auto;
 	padding: 15px;
 	overflow: auto;
 }
 
 .button {
-	width: 135px;
+	width: 90px;
 	height: auto;
 	padding: 10px 2px;
-	background-color: #CCCCCC;
-	text-align: center;
-	border-right: 1px solid #FFFFFF;
+	margin-top: 10px;
+	background-color: #000000;
+	text-align: right;
+	border-right: 0px solid #FFFFFF;
 }
 
 nav a {
 	display: inline-block;
 	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
 	text-align: center;
 	text-decoration: none;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 nav a:hover {
@@ -67,8 +78,10 @@ nav a:hover {
 /* Typography */
 
 h1 {
+	display: inline-block;
+	float: left;
 	font-family: 'Monoton', cursive;
-	font-size: 110px;
+	font-size: 36px;
 	font-weight: 400;
 	color: #FFFFFF;
 	margin: 0;
@@ -76,12 +89,16 @@ h1 {
 }
 
 h2 {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 	font-size: 18px;
-	font-weight: 400;
-	color: #FFFFFF;
-	margin: 0;
-	padding: 0;
+	color: #000000;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000000;
 }
 
 a {
@@ -91,11 +108,19 @@ a {
 
 p {
 	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
 }
 
 footer p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 20px;
 }
+
 
