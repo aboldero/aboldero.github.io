@@ -16,7 +16,7 @@ $(window).scroll(function () {
 	} else {
 		$('header').removeClass('header-offset');
 		$('h1').show();
-		$('main').css("margin-top", "250px");
+		$('main').css("margin-top", "50px");
 	}
 })
 
