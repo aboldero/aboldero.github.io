@@ -200,7 +200,7 @@ footer {
 
 .parallax1{ 
     background-image: url("../images/parallaximg1.jpg");
-    height: 500px;
+    height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -210,7 +210,7 @@ footer {
 
 .parallax2 {
 	background-image: url("../images/parallaximg2.jpg");
-    height: 500px;
+    height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -220,7 +220,7 @@ footer {
 
 .parallax3 {
 	background-image: url("../images/parallaximg3.jpg");
-    height: 500px;
+    height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
