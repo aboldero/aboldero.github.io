@@ -8,6 +8,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: 100%;
 
 }
 
@@ -19,6 +20,7 @@ header {
 	height: 250px;
 	position: fixed;
 	box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.75);
+	z-index: 999;
 }
 
 nav {
@@ -35,6 +37,7 @@ nav {
 nav a {
 	text-decoration: none;
 	color: #FFFFFF;
+	border-bottom: 3px solid transparent;
 }
 
 nav a:hover {
@@ -47,13 +50,44 @@ main {
 	margin-top: 250px;
 	padding: 0;
 	flex: 1;
-	width: 775px;
+	width: 100%;
 }
 
 article, section {
 	width: 775px;
-	margin: 0;
+	margin: auto;
 	padding: 0;
+}
+
+table {
+	padding: 0;
+	margin-bottom: 20px;
+	text-align: left;
+	vertical-align: top;
+	font-family: Arial Narrow, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 770px;
+	border-collapse: collapse;
+}
+
+th {
+	width: 110px;
+	padding: 10px 0 10px 5px;
+	border-bottom: 2px solid #000000;
+}
+
+th:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+td {
+	text-align: left;	vertical-align: top;
+
+	padding: 10px 0 10px 5px;
+}
+
+td:nth-child(odd) {
+    background-color: #F6F6F6;
 }
 
 footer {
@@ -75,7 +109,7 @@ footer {
 	padding: 0;
 	margin: 0;
 	position: fixed;
-	}
+}
 
 .container {
 	width: 775px;
@@ -84,16 +118,6 @@ footer {
 	padding: 15px;
 	overflow: auto;
 }
-
-/*.button {
-	width: 90px;
-	height: auto;
-	padding: 10px 2px;
-	margin-top: 10px;
-	background-color: #000000;
-	text-align: center;
-	border-right: 0px solid #FFFFFF;
-}*/
 
 .slash {
 	color: #FFD500;
@@ -108,6 +132,10 @@ footer {
 	color: #5F7EA0;
 }
 
+.blue:hover {
+	cursor: pointer;
+}
+
 #home {
 	color: #FFFFFF;
 	margin: 0;
@@ -115,7 +143,15 @@ footer {
 }
 
 #home:hover {
-	color: #5500FF;
+	color: #5F7EA0;
+}
+
+
+#map {
+	height: 500px;
+	width: 775px;
+	margin: auto;
+	padding: 0;
 }
 
 .sml {
@@ -123,6 +159,12 @@ footer {
 	float: left;
 	margin: 20px 0;
 	padding: 0;
+}
+
+.smlc {
+	display: block;
+	margin: auto;
+	padding: 20px 0 40px 0;
 }
 
 .big {
@@ -156,7 +198,37 @@ footer {
 
 }
 
-#burger {
+.parallax1{ 
+    background-image: url("../images/parallaximg1.jpg");
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	background-image: url("../images/parallaximg2.jpg");
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+	background-image: url("../images/parallaximg3.jpg");
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plus {
 	display: none;
 }
 
@@ -197,10 +269,13 @@ h1 {
 
 	/* Date and Title - Article */
 h2 {
-	font-family: 'Libre Baskerville', Helvetica, sans-serif;
-	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 500;
 	color: #000000;
-	text-align: center;
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: auto;
 }
 
 	/* Title and Caption - Index */
@@ -214,6 +289,11 @@ h3 {
 	width: auto;
 	vertical-align: middle;
 	line-height: 52px;
+	cursor: pointer;
+}
+
+h3:hover {
+	text-decoration: underline;
 }
 
 	/* Author Name and Date - Index */
@@ -229,17 +309,22 @@ h4 {
 
 	/* Author Name - About */
 h5 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 28px;
 	color: #000000;
 	margin: 0;
 	padding: 10px 0 10px 20px;
 }
 
-	/* About Mission - About */
+	/* Heading - Runway */
 h6 {
-	font-family: 
-	font-size: 40px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 0;
 }
 
 a {
@@ -248,14 +333,30 @@ a {
 }
 
 p {
+	font-family: 'Source Sans Pro', sans-serif;
 	text-align: justify;
 	font-size: 20px;
+	margin-top: 20px;
+	padding: 0;
 }
 
 .bio {
 	margin: 0;
 	padding-left: 20px;
 	font-size: 20px;
+}
+
+.author {
+	font-style: italic;
+}
+
+#mission {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 20px;
+	padding: 50px 0;
+	margin: 0;
+	text-align: center;
+	font-style: italic;
 }
 
 footer p {
@@ -300,7 +401,7 @@ footer p {
 		padding: 0;
 	}
 
-	#burger {
+	#plus {
 		display: block;
 		float: right;
 		margin: 10px;
@@ -315,4 +416,3 @@ footer p {
 	overflow: auto;
 	}
 }
-

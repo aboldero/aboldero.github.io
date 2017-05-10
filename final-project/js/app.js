@@ -17,8 +17,8 @@ $(window).scroll(function () {
 	}
 })
 
-/* Burger Nav */
+/* Plus-Burger Nav */
 
-$('#burger').click(function () {
+$('#plus').click(function () {
 	$('#mobile-nav').slideToggle();
 });
