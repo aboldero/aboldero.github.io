@@ -234,6 +234,8 @@ footer {
 
 #mobile-nav {
 	display: none;
+	position: absolute;
+	position: fixed;
 	text-align: center;
 	width: 100%;
 	border-top: 20px solid #FFFFFF;
