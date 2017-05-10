@@ -1,40 +1,68 @@
 <!DOCTYPE html>
-    <html>
-      <head>
-        <title>FLOC(K)</title>
+  <html>
+    <head>
+      <title>FLOC(K)</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-      </head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    </head>
 
-      <body>
-        <header>
-            <div class="container">
-            <h1>FLOC(K)</h1>
-            <nav>
-                <a href="about.html" class="button">About</a>
-                <a href="#" class="button">Fashion</a>
-                <a href="#" class="button">Culture</a>
-                <a href="#" class="button">CozColumn</a>
-                <a href="#" class="button">Runway</a>
-            </nav>
-            </div>
-        </header>
-         <main>
-            <section>
-                <img src="images/sampleimg.jpg">
-            </section>
-            <section>
-                <img src="images/sampleimg.jpg">
-            </section>
-            <section>
-                <img src="images/sampleimg.jpg">
-            </section>
-         </main>
-         <footer>
-            <p>FLOC(K) / 2017</p>
-         </footer>
-      </body>
-    </html>
+    <body>
+      <header>
+        <div class="container">
+          <h1 class="glitch" data-text="GLITCH"><a href="index.html" id="home" class="glitch">FLOC(K)</a></h1>
+          <nav>
+            <a href="index.html">Home</a><span class="slash"> &#215; </span>
+            <a href="fashion.html">Fashion</a><span class="slash"> &#215; </span>
+            <a href="culture.html">Culture</a><span class="slash"> &#215; </span>
+            <a href="cozcolumn.html">CozColumn</a><span class="slash"> &#215; </span>
+            <a href="runway.html">Runway</a><span class="slash"> &#215; </span>
+            <a href="about.html">About</a>      
+          </nav>
+          <div id="burger">
+            <img src="images/hamburger-icon.png" alt="">
+          </div>
+        </div>
+      </header>
+      <nav id="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="culture.html">Culture</a>
+        <a href="cozcolumn.html">CozColumn</a>
+        <a href="runway.html">Runway</a>
+        <a href="about.html">About</a>   
+      </nav>
+      <main>
+        <section>
+          <img src="images/sampleimg1.jpg" class="sampleimg">
+          <img src="images/sml_scarlett.png" class="sml">
+          <div class="articleindex">
+            <h3><a href="fashion.html">Article Title</a></h3>
+            <h4><span class="blue">Author Name</span> - April 26, 2017</h4>
+          </div>
+        </section>
+        <section>
+          <img src="images/sampleimg2.jpg" class="sampleimg">
+          <img src="images/sml_hungtran.png" class="sml">
+          <div class="articleindex">
+            <h3><a href="culture.html">Article Title</a></h3>
+            <h4><span class="blue">Author Name</span> - April 26, 2017</h4>
+          </div>
+         </section>
+        <section>
+          <img src="images/sampleimg3.jpg" class="sampleimg">
+          <img src="images/sml_coz.png" class="sml">
+          <div class="articleindex">
+            <h3><a href="cozcolumn.html">Article Title</a></h3>
+            <h4><span class="blue">Author Name</span> - April 26, 2017</h4>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>FLOC(K)<span class="fslash"> &#215; </span>2017</p>
+      </footer>
 
-
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+  </html>
